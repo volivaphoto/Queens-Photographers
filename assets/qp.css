@@ -129,3 +129,5 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;line-height:1.05}
   .form{grid-template-columns:1fr}
   .lb{grid-template-columns:1fr}.lb .nav{display:none}.lb img{grid-column:1}
 }
+/* Around Queens: one tidy row of five on desktop */
+@media (min-width:901px){.queens .gal{columns:5}}

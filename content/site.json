@@ -108,6 +108,12 @@
           "h": 2000
         },
         {
+          "image": "/media/portraits/cherry-blossom.jpg",
+          "alt": "A woman in warm sunlight holding a cherry blossom by her ear",
+          "w": 1080,
+          "h": 1350
+        },
+        {
           "image": "/media/portraits/chef-counter.jpg",
           "alt": "A chef in whites behind a marble counter with a plated dish",
           "w": 1600,
@@ -122,6 +128,12 @@
         {
           "image": "/media/portraits/family-kiss.jpg",
           "alt": "A mother kissing her baby's cheek against green leaves",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/portraits/night-street.jpg",
+          "alt": "A man in a dark coat and mask looking up under string lights on a city street at night",
           "w": 1600,
           "h": 2000
         },
@@ -190,6 +202,44 @@
         {
           "image": "/media/events/forest-hills.jpg",
           "alt": "A Tudor house covered in ivy on a quiet Forest Hills street",
+          "w": 1600,
+          "h": 2000
+        }
+      ]
+    },
+    {
+      "id": "queens",
+      "num": "IV",
+      "title": "Around Queens",
+      "text": "Snowy evenings, wet cobblestones and everyday moments around Station Square in Forest Hills.",
+      "photos": [
+        {
+          "image": "/media/queens/arch-snow-menorah.jpg",
+          "alt": "Snow falling on Station Square, a lit menorah by the clock tower and a person with an umbrella crossing the bricks",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/queens/station-square-snow.jpg",
+          "alt": "Two people meeting on a snowy street in Station Square, Forest Hills, one in a camel coat and hat, one in a red quilted jacket",
+          "w": 1080,
+          "h": 1350
+        },
+        {
+          "image": "/media/queens/arch-rain-night.jpg",
+          "alt": "A lone walker on wet cobblestones under the Station Square arch at blue hour, streetlights glowing",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/queens/hat-in-snow.jpg",
+          "alt": "A man lifting his black hat over his yarmulke in falling snow",
+          "w": 1080,
+          "h": 1350
+        },
+        {
+          "image": "/media/queens/arch-snow-crossing.jpg",
+          "alt": "Two people crossing the street under the Forest Hills Gardens arch in light snow",
           "w": 1600,
           "h": 2000
         }
