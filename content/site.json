@@ -4,9 +4,8 @@
   "headline": "Photography that feels like New York.",
   "intro": "Inspired by the city’s streets, neighborhoods, and everyday moments.",
   "heroImages": [
-    "media/elopements/fountain-embrace.jpg",
-    "media/elopements/fall-stairs.jpg",
-    "media/portraits/family-gate.jpg"
+    "/media/elopements/fountain-embrace.jpg",
+    "/media/portraits/family-gate.jpg"
   ],
   "sections": [
     {
@@ -16,73 +15,73 @@
       "text": "Capturing the connection between two people with honest moments, thoughtful composition, and the backdrop of New York.",
       "photos": [
         {
-          "image": "media/elopements/fall-stairs.jpg",
+          "image": "/media/elopements/fall-stairs.jpg",
           "alt": "A couple in a blue suit and gold-and-white gown walking down stone stairs under golden fall trees in Central Park",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/fountain-embrace.jpg",
+          "image": "/media/elopements/fountain-embrace.jpg",
           "alt": "A couple holding each other close in front of Bethesda Fountain, warm autumn light",
           "w": 1462,
           "h": 1828
         },
         {
-          "image": "media/elopements/mall-dance-bw.jpg",
+          "image": "/media/elopements/mall-dance-bw.jpg",
           "alt": "Black-and-white photo of a couple twirling on the Central Park Mall at dusk under the lamps",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/mosaic-wall.jpg",
+          "image": "/media/elopements/mosaic-wall.jpg",
           "alt": "A smiling couple holding hands in front of the painted tile wall at Bethesda Terrace",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/fountain-dip.jpg",
+          "image": "/media/elopements/fountain-dip.jpg",
           "alt": "A groom dipping his laughing bride in front of Bethesda Fountain in fall",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/terrace-stairs.jpg",
+          "image": "/media/elopements/terrace-stairs.jpg",
           "alt": "A couple walking down the Bethesda Terrace stairs, smiling at each other, her gown flowing",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/bow-bridge.jpg",
+          "image": "/media/elopements/bow-bridge.jpg",
           "alt": "A couple smiling at the railing of Bow Bridge with green trees behind",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/arcade-dance-bw.jpg",
+          "image": "/media/elopements/arcade-dance-bw.jpg",
           "alt": "Black-and-white photo of a groom kicking up a dance step as his bride laughs in the arcade",
           "w": 1600,
           "h": 1280
         },
         {
-          "image": "media/elopements/terrace-wave.jpg",
+          "image": "/media/elopements/terrace-wave.jpg",
           "alt": "A couple walking across Bethesda Terrace, him waving, her laughing",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/fountain-kiss.jpg",
+          "image": "/media/elopements/fountain-kiss.jpg",
           "alt": "A couple about to kiss in front of the fountain",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/arcade.jpg",
+          "image": "/media/elopements/arcade.jpg",
           "alt": "A couple standing small beneath the ornate arcade ceiling of Bethesda Terrace",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/elopements/laughing-hug.jpg",
+          "image": "/media/elopements/laughing-hug.jpg",
           "alt": "A couple laughing and hugging on the terrace",
           "w": 1600,
           "h": 2029
@@ -96,67 +95,67 @@
       "text": "Editorial-inspired portraits with a love for interesting places, and genuine expression.",
       "photos": [
         {
-          "image": "media/portraits/sundae-diner.jpg",
+          "image": "/media/portraits/sundae-diner.jpg",
           "alt": "A woman in a yellow knit beret resting her chin on her hands behind a hot fudge sundae at a diner window",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/family-gate.jpg",
+          "image": "/media/portraits/family-gate.jpg",
           "alt": "A mother holding her baby under an ivy archway at a garden gate in Forest Hills",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/chef-counter.jpg",
+          "image": "/media/portraits/chef-counter.jpg",
           "alt": "A chef in whites behind a marble counter with a plated dish",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/sundae-spoon.jpg",
+          "image": "/media/portraits/sundae-spoon.jpg",
           "alt": "A woman in a blue floral dress taking a spoonful of a sundae at a diner counter",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/family-kiss.jpg",
+          "image": "/media/portraits/family-kiss.jpg",
           "alt": "A mother kissing her baby's cheek against green leaves",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/restaurant-door.jpg",
+          "image": "/media/portraits/restaurant-door.jpg",
           "alt": "A woman in a white vest leaning in a restaurant doorway",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/theo.jpg",
+          "image": "/media/portraits/theo.jpg",
           "alt": "A newborn bundled in a soft blanket looking up at the camera",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/family-door.jpg",
+          "image": "/media/portraits/family-door.jpg",
           "alt": "A young family with their baby in front of a green carriage-house door",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/wine-portrait.jpg",
+          "image": "/media/portraits/wine-portrait.jpg",
           "alt": "A woman in a tweed jacket beside a wine display and floral painting",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/family-arch.jpg",
+          "image": "/media/portraits/family-arch.jpg",
           "alt": "Parents admiring their baby on the brick street under the Station Square arch in Forest Hills",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/portraits/family-hug.jpg",
+          "image": "/media/portraits/family-hug.jpg",
           "alt": "A dad holding the baby over his shoulder with mom hugging him from behind",
           "w": 1600,
           "h": 2000
@@ -170,25 +169,25 @@
       "text": "A candid approach to documenting gatherings, milestones, and everyday moments. Clean compositions, natural interactions, and an eye for the details that make each occasion unique.",
       "photos": [
         {
-          "image": "media/events/dinner-party.jpg",
+          "image": "/media/events/dinner-party.jpg",
           "alt": "Guests around a long candlelit dinner table in a wood-paneled room",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/events/arched-room.jpg",
+          "image": "/media/events/arched-room.jpg",
           "alt": "Sunlight through arched windows across a set dining room",
           "w": 1600,
           "h": 2000
         },
         {
-          "image": "media/events/long-table.jpg",
+          "image": "/media/events/long-table.jpg",
           "alt": "A long event table under a vaulted, arched ceiling",
           "w": 1600,
           "h": 2400
         },
         {
-          "image": "media/events/forest-hills.jpg",
+          "image": "/media/events/forest-hills.jpg",
           "alt": "A Tudor house covered in ivy on a quiet Forest Hills street",
           "w": 1600,
           "h": 2000
@@ -207,21 +206,19 @@
     },
     {
       "title": "Portraits",
-      "from": "",
       "price": "$200",
       "note": "Individuals, couples and families"
     },
     {
       "title": "Lifestyle + Small Events",
-      "from": "",
       "price": "$300",
       "unit": "per hour",
       "note": "Gatherings, milestones and dinners"
     }
   ],
   "film": {
-    "video": "media/film/founders-season.mp4",
-    "poster": "media/film/founders-season.jpg",
+    "video": "/media/film/founders-season.mp4",
+    "poster": "/media/film/founders-season.jpg",
     "alt": "Short film: just launched, special rates for our first season"
   },
   "bookTitle": "Ready when you are.",
