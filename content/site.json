@@ -108,12 +108,6 @@
           "h": 2000
         },
         {
-          "image": "/media/portraits/cherry-blossom.jpg",
-          "alt": "A woman in warm sunlight holding a cherry blossom by her ear",
-          "w": 1080,
-          "h": 1350
-        },
-        {
           "image": "/media/portraits/chef-counter.jpg",
           "alt": "A chef in whites behind a marble counter with a plated dish",
           "w": 1600,
@@ -128,12 +122,6 @@
         {
           "image": "/media/portraits/family-kiss.jpg",
           "alt": "A mother kissing her baby's cheek against green leaves",
-          "w": 1600,
-          "h": 2000
-        },
-        {
-          "image": "/media/portraits/night-street.jpg",
-          "alt": "A man in a dark coat and mask looking up under string lights on a city street at night",
           "w": 1600,
           "h": 2000
         },
