@@ -62,8 +62,8 @@
     var body={name:d.get('name'),email:d.get('email'),session:d.get('session'),date:d.get('date'),message:d.get('message'),_subject:'New booking inquiry: '+d.get('session')+' ('+d.get('name')+')',_replyto:d.get('email'),_template:'table',_captcha:'false'};
     var btn=form.querySelector('button');btn.disabled=true;msg.className='form-msg';msg.textContent='Sending…';
     fetch('https://formsubmit.co/ajax/'+(window.__QP_EMAIL||'volivaphoto@gmail.com'),{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(body)})
-      .then(function(r){return r.json()}).then(function(r){if(String(r.success)==='true'||r.success===true){msg.className='form-msg ok';msg.textContent='Thank you! I’ll be in touch soon.';form.reset()}else throw 0})
-      .catch(function(){msg.className='form-msg err';msg.innerHTML='Something went wrong. Please email <a href="mailto:'+(window.__QP_EMAIL||'volivaphoto@gmail.com')+'">'+(window.__QP_EMAIL||'volivaphoto@gmail.com')+'</a>.'})
+      .then(function(r){return r.json()}).then(function(r){if(String(r.success)==='true'||r.success===true){msg.className='form-msg ok';msg.textContent='Thank you! I’ll be in touch soon.';form.reset()}else throw (r&&r.message)||0})
+      .catch(function(why){var M=window.__QP_EMAIL||'volivaphoto@gmail.com';msg.className='form-msg err';if(why&&/activat/i.test(why)){msg.textContent='Almost set up: this form is waiting for activation. Please try again shortly, or email '+M+'.';return}msg.innerHTML=(typeof why==='string'&&why?why+' ':'Something went wrong. ')+'Please email <a href="mailto:'+(window.__QP_EMAIL||'volivaphoto@gmail.com')+'">'+(window.__QP_EMAIL||'volivaphoto@gmail.com')+'</a>.'})
       .then(function(){btn.disabled=false});
   });
 })();
