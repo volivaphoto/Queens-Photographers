@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Queens Photographers · Elopements, Portraits, Events in New York</title>
+<meta name="description" content="Queens Photographers: elopement, portrait and small-event photography that feels like New York. Founders Season pricing now available.">
+<meta property="og:title" content="Queens Photographers">
+<meta property="og:description" content="Photography that feels like New York. Elopements, portraits and events.">
+<meta property="og:image" content="media/elopements/fountain-embrace.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/qp.css?v=1">
+</head>
+<body>
+<header class="top">
+  <a class="mark" href="#top">Queens <em>Photographers</em></a>
+  <nav aria-label="Sections">
+    <a href="#elopements">Elopements</a><a href="#portraits">Portraits</a><a href="#events">Events</a><a href="#pricing">Pricing</a><a class="nav-book" href="#book">Book</a>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow" id="eyebrow">Elopements • Portraits • Events</p>
+    <h1 id="headline">Photography that feels like New York.</h1>
+    <div class="hero-frames" id="heroFrames" aria-hidden="true"></div>
+    <a class="btn" href="#book">Book today</a>
+  </section>
+  <p class="intro"><span class="orn" aria-hidden="true">✦</span><span id="intro"></span><span class="orn" aria-hidden="true">✦</span></p>
+  <div id="sections"></div>
+  <section class="pricing" id="pricing">
+    <div class="pricing-in">
+      <div class="pricing-head">
+        <p class="eyebrow">Now booking</p>
+        <h2 id="pricingTitle">Founders Season Pricing</h2>
+        <p id="pricingText"></p>
+      </div>
+      <figure class="film" id="film"></figure>
+      <div class="cards" id="cards"></div>
+    </div>
+  </section>
+  <section class="book" id="book">
+    <div class="book-in">
+      <h2 id="bookTitle">Ready when you are.</h2>
+      <p id="bookText"></p>
+      <form id="form" class="form" novalidate>
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Email address<input name="email" type="email" autocomplete="email" required></label>
+        <label>Session
+          <select name="session"><option>Elopement</option><option>Portraits</option><option>Lifestyle + Small Event</option><option>Not sure yet</option></select>
+        </label>
+        <label>Date<input name="date" placeholder="Preferred date, or date range"></label>
+        <label class="wide">Message<textarea name="message" rows="5" placeholder="Tell me a bit about your photo needs." required></textarea></label>
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">Send message</button>
+        <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="foot">
+  <span class="mark">Queens <em>Photographers</em></span>
+  <span id="footer">Queens, New York</span>
+  <a id="mailLink" href="mailto:volivaphoto@gmail.com">volivaphoto@gmail.com</a>
+  <a id="commercial" href="https://www.vitoolivaphoto.com">Commercial work by Vito Oliva</a>
+</footer>
+<script src="assets/qp.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/*.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
+/content/*
+  Cache-Control: no-cache

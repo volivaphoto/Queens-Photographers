@@ -1,0 +1,70 @@
+# Pages CMS editor setup (https://pagescms.org). Sign in with GitHub and open this repository.
+media:
+  input: media
+  output: /media
+  rename: safe
+  categories: [image, video]
+
+content:
+  - name: site
+    label: Queens Photographers (whole page)
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: name, label: Business name, type: string }
+      - { name: eyebrow, label: Small line above the headline, type: string }
+      - { name: headline, label: Headline (last two words show in italic green), type: string }
+      - { name: intro, label: Intro line under the photos, type: text }
+      - { name: heroImages, label: "Top photos (3: left, middle arch, right)", type: image, list: true }
+      - name: sections
+        label: Sections (in order)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: id, label: "Link name (elopements, portraits, events)", type: string }
+          - { name: num, label: Roman numeral, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Description, type: text }
+          - name: photos
+            label: Photos (in order)
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{alt}"
+            fields:
+              - { name: image, label: Photo, type: image }
+              - { name: alt, label: Description (for screen readers, not shown), type: string }
+              - { name: w, label: "Width in pixels (optional)", type: number }
+              - { name: h, label: "Height in pixels (optional)", type: number }
+      - { name: pricingTitle, label: Pricing heading, type: string }
+      - { name: pricingText, label: Pricing intro, type: text }
+      - name: prices
+        label: Price cards
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} {price}"
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: from, label: "Small line above the price (e.g. Starting from)", type: string }
+          - { name: price, label: Price, type: string }
+          - { name: unit, label: "After the price (e.g. per hour)", type: string }
+          - { name: note, label: Short note, type: string }
+      - name: film
+        label: Video beside the pricing
+        type: object
+        fields:
+          - { name: video, label: Video (MP4, vertical), type: file }
+          - { name: poster, label: Video still, type: image }
+          - { name: alt, label: Description, type: string }
+      - { name: bookTitle, label: Booking heading, type: string }
+      - { name: bookText, label: Booking intro, type: text }
+      - { name: email, label: "Email that receives booking messages", type: string }
+      - { name: footer, label: Footer line, type: string }
+      - { name: commercialLink, label: Link to commercial site, type: string }
