@@ -246,13 +246,15 @@
     {
       "title": "Portraits",
       "price": "$200",
-      "note": "Individuals, couples and families"
+      "note": "Individuals, couples and families",
+      "from": "Starting from"
     },
     {
       "title": "Lifestyle + Small Events",
       "price": "$300",
       "unit": "per hour",
-      "note": "Gatherings, milestones and dinners"
+      "note": "Gatherings, milestones and dinners",
+      "from": "Starting from"
     }
   ],
   "film": {
