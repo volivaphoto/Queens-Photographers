@@ -114,6 +114,12 @@
           "h": 2000
         },
         {
+          "image": "/media/portraits/maternity-hell-gate.jpg",
+          "alt": "An expecting couple embracing on the waterfront in warm light under the Hell Gate Bridge in Astoria Park",
+          "w": 1600,
+          "h": 2000
+        },
+        {
           "image": "/media/portraits/sundae-spoon.jpg",
           "alt": "A woman in a blue floral dress taking a spoonful of a sundae at a diner counter",
           "w": 1600,
@@ -132,10 +138,46 @@
           "h": 2000
         },
         {
+          "image": "/media/portraits/maternity-skyline.jpg",
+          "alt": "An expecting couple looking out over the river at sunset, his arms around her, the skyline behind",
+          "w": 1600,
+          "h": 2000
+        },
+        {
           "image": "/media/portraits/theo.jpg",
           "alt": "A newborn bundled in a soft blanket looking up at the camera",
           "w": 1600,
           "h": 2000
+        },
+        {
+          "image": "/media/portraits/maternity-bridge-kiss.jpg",
+          "alt": "An expecting couple kissing by the East River railing at golden hour, a bridge and skyline behind them",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/portraits/maternity-forehead-kiss.jpg",
+          "alt": "A man kissing his smiling pregnant partner on the forehead under backlit autumn trees",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/portraits/maternity-laugh.jpg",
+          "alt": "A laughing mom-to-be in a green velvet floral dress, both their hands on her bump",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/portraits/maternity-closeup.jpg",
+          "alt": "A woman holding her partner's face as they share a close, smiling moment in golden light",
+          "w": 1600,
+          "h": 2000
+        },
+        {
+          "image": "/media/portraits/maternity-hands-bw.jpg",
+          "alt": "Black-and-white close-up of an expecting couple holding hands beside her bump",
+          "w": 1600,
+          "h": 2001
         },
         {
           "image": "/media/portraits/family-door.jpg",
