@@ -32,7 +32,7 @@
     (c.sections||[]).forEach(function(s){
       var sec=el('section','svc '+(s.id||''));sec.id=s.id||'';var inn=el('div','svc-in');sec.appendChild(inn);
       var hd=rv(el('div','svc-head'));var t=el('div');if(s.num)t.appendChild(el('span','svc-num',s.num+'.'));t.appendChild(el('h2',null,s.title));hd.appendChild(t);if(s.text)hd.appendChild(el('p',null,s.text));inn.appendChild(hd);
-      var g=el('div','gal'),ph=(s.photos||[]).filter(function(p){return p.image}),FIRST=s.id==='events'?99:9;
+      var g=el('div','gal'),ph=(s.photos||[]).filter(function(p){return p.image}),FIRST=s.id==='events'?99:s.id==='queens'?10:9;
       ph.forEach(function(p,i){var f=el('figure',i>=FIRST?'more':'');var im=img(p.image,p.alt,true);if(p.w&&p.h){im.width=p.w;im.height=p.h}f.appendChild(im);
         f.tabIndex=0;f.setAttribute('role','button');f.setAttribute('aria-label','View larger: '+(p.alt||s.title));
         var go=function(){open(ph,i)};f.onclick=go;f.onkeydown=function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}};

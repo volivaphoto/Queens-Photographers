@@ -298,16 +298,16 @@
           "h": 1350
         },
         {
-          "image": "/media/queens/snowy-path-couple.jpg",
-          "alt": "A couple walking hand in hand down a snowy park path at dusk",
-          "w": 1080,
-          "h": 720
-        },
-        {
           "image": "/media/queens/arch-snow-crossing.jpg",
           "alt": "Two people crossing the street under the Forest Hills Gardens arch in light snow",
           "w": 1600,
           "h": 2000
+        },
+        {
+          "image": "/media/queens/snowy-path-couple.jpg",
+          "alt": "A couple walking hand in hand down a snowy park path at dusk",
+          "w": 1080,
+          "h": 720
         }
       ]
     }
