@@ -241,7 +241,7 @@
       "id": "queens",
       "num": "IV",
       "title": "Around Queens",
-      "text": "Snowy evenings, wet cobblestones and everyday moments around Station Square in Forest Hills.",
+      "text": "Street-inspired photography that brings a cinematic, moody edge to portraits and candid moments.",
       "photos": [
         {
           "image": "/media/queens/arch-snow-menorah.jpg",
@@ -287,16 +287,16 @@
     },
     {
       "title": "Portraits",
+      "from": "Starting from",
       "price": "$200",
-      "note": "Individuals, couples and families",
-      "from": "Starting from"
+      "note": "Individuals, couples and families"
     },
     {
       "title": "Lifestyle + Small Events",
+      "from": "Starting from",
       "price": "$300",
       "unit": "per hour",
-      "note": "Gatherings, milestones and dinners",
-      "from": "Starting from"
+      "note": "Gatherings, milestones and dinners"
     }
   ],
   "film": {
