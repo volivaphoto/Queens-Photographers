@@ -240,9 +240,15 @@
     {
       "id": "queens",
       "num": "IV",
-      "title": "Around Queens",
-      "text": "Street-inspired photography that brings a cinematic, moody edge to portraits and candid moments.",
+      "title": "Street Portraits",
+      "text": "Candid, documentary-style photos of people in the city, shaped by weather, light and place. Snowy blocks, foggy boardwalks and neon corners around Queens and beyond.",
       "photos": [
+        {
+          "image": "/media/queens/soda-shop-snow.jpg",
+          "alt": "A person walking past a glowing neon SODA sign and a lit-up ice cream parlor window in light snow",
+          "w": 1600,
+          "h": 2000
+        },
         {
           "image": "/media/queens/arch-snow-menorah.jpg",
           "alt": "Snow falling on Station Square, a lit menorah by the clock tower and a person with an umbrella crossing the bricks",
@@ -250,8 +256,14 @@
           "h": 2000
         },
         {
-          "image": "/media/queens/station-square-snow.jpg",
-          "alt": "Two people meeting on a snowy street in Station Square, Forest Hills, one in a camel coat and hat, one in a red quilted jacket",
+          "image": "/media/queens/fog-profile.jpg",
+          "alt": "A woman in profile with her eyes closed against a soft, foggy sky",
+          "w": 1080,
+          "h": 1350
+        },
+        {
+          "image": "/media/queens/three-walking-snow.jpg",
+          "alt": "Three figures in black coats and hats walking down a snowed-in street",
           "w": 1080,
           "h": 1350
         },
@@ -262,10 +274,34 @@
           "h": 2000
         },
         {
+          "image": "/media/queens/winter-surfer.jpg",
+          "alt": "A surfer waist-deep in a gray winter ocean, snow-covered brush in the foreground",
+          "w": 1080,
+          "h": 1350
+        },
+        {
+          "image": "/media/queens/station-square-snow.jpg",
+          "alt": "Two people meeting on a snowy street in Station Square, Forest Hills, one in a camel coat and hat, one in a red quilted jacket",
+          "w": 1080,
+          "h": 1350
+        },
+        {
+          "image": "/media/queens/foggy-boardwalk.jpg",
+          "alt": "A lone figure on a foggy boardwalk at night under a line of glowing lamps",
+          "w": 1080,
+          "h": 1350
+        },
+        {
           "image": "/media/queens/hat-in-snow.jpg",
           "alt": "A man lifting his black hat over his yarmulke in falling snow",
           "w": 1080,
           "h": 1350
+        },
+        {
+          "image": "/media/queens/snowy-path-couple.jpg",
+          "alt": "A couple walking hand in hand down a snowy park path at dusk",
+          "w": 1080,
+          "h": 720
         },
         {
           "image": "/media/queens/arch-snow-crossing.jpg",
